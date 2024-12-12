@@ -347,7 +347,7 @@ main{
     }
 
     .art1{
-        grid-column: 2/3;
+        grid-column: 2/2;
     }
 }
 
@@ -361,7 +361,7 @@ main{
     background: var(--Green-99, #FAFDF2);
     margin-top: 30px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
 
     .person{
         height: 60px;
@@ -392,9 +392,9 @@ main{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
         gap: 10px;
-        margin-left: 17vw;
+        
         cursor: pointer;
         
         & div{
@@ -742,45 +742,166 @@ footer{
 
 
 /* *Tablet */
-@media screen and (max-width: 920px) {
-    .menu {
-        display: none;
-    }
 
-    .burg-menu {
-        display: block;
-    }
+@media screen and (max-width: 1440px) {
+    body{
+        font-size: 1.6rem;
+     
+        }
+        header{
+            
+            
+            .hero{
+                font-size: 1.6rem;
+                & h2{
+                    font-size: 2.8rem;
+                }
+                & h1{
+                    font-size: 5.8rem;
+                }
+                & p{
+                    font-size: 1.6rem;
+                }
 
-    .btn-area {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-    }
+            }
+            .btn-area{
+                font-size: 1.6rem;
+            }
+            .happy-cust {
+                & img{width: 40px;}
+                & h4{
+                    font-size: 1.6rem;
+                }
+            }
 
-    .hero {
-        flex-direction: column;
-    }
+        }
+    
+        main{
+            .f-hero{
+                & h2{
+                    font-size: 4.2rem;
+                }
+                & p{
+                    font-size: 1.6rem;
+                }
 
-    .hero img,
-    .hero .content {
-        width: 100%;
-    }
 
-    .content {
-        text-align: center;
-    }
+            }
 
-    .content img {
-        width: 80px;
-    }
+            .container-single{
+                & h4{
+                    font-size: 2.8rem;
+                    font-weight: 600;
+                }
+                & p{
+                    font-size: 1.6rem;
+                }
+                .title img{
+                    height: 54px;
+                    width: 54px;
+                    padding:12px ;
+                }
+            }
+
+            .arts {
+                
+                & h4,.text{
+                    font-size: 1.6rem;
+                }
+                & h3{
+                    font-size: 2.8rem;
+                }
+                .person-des{
+                    & h5,p{
+                        font-size: 1.6rem;
+                    }
+                }
+                .blog-img{
+
+                    min-height: 336px auto; 
+                }
+
+            }
+
+        }
+
+        .plans article{
+            & h4{font-size: 2.8rem};
+            & p{font-size: 1.6rem};
+            & span{font-size: 1.6rem};
+            & button{font-size: 1.6rem};
+        }
+
+        footer a, footer p{
+
+            font-size: 1.6rem;
+        }
+
+
 }
-
 
 
 /* * Handy */
 @media screen and (max-width: 550px) {
+    
 
+    .arts{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+        grid-template-rows: 1fr 1fr;
+        margin-bottom: 123px;
+        
+        & article{
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid var(--Green-85, #E5F5BD);
+            background: var(--Green-95, #F6FBE9);
+            height: 844px auto;
+            display: flex;
+            flex-direction: column;
+            
+            
+            
+    
+            .blog-img{
+                display: flex;
+                height: 428px; 
+                width:  100%;
+                object-fit: cover;
+                
+                margin-bottom: 40px;
+                border-radius: 12px;
+            }
+    
+            & h4 {
+                font-size: 1.8rem;
+                margin-bottom: 5px;
+            }
+    
+            & h3{
+                font-size: 3.4rem;
+                margin-bottom: 30px;
+            }
+    
+            .text{
+                font-size: 1.8rem;
+                line-height: 150%;
+                height: 54px;
+                
+    
+            }
+    
+        }
+    
+        article.art1{
+            grid-column: 1/1;
+        }
+    }
+
+    
+    
     .container-wrp-inner {
         flex-direction: column;
     }

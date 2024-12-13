@@ -90,15 +90,11 @@
 
 ## Mitwirkende
 
-- **Projektleitung:** Dein Name
-- **Design & Entwicklung:** Dein Name
+- **Projektleitung:** David Schwarz
+- **Design & Entwicklung:** David Schwarz
 
 ## Lizenz
 
 Dieses Projekt ist unter der [MIT-Lizenz](LICENSE) lizenziert. Weitere Informationen findest du in der `LICENSE`-Datei.
 
-## Kontakt
 
-Bei Fragen oder Vorschlägen kontaktiere uns bitte:
-- **E-Mail:** hello@squareup.com
-- **Telefon:** +91 91813 23 2309

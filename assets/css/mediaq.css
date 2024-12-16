@@ -1,0 +1,372 @@
+/* *Tablet */
+
+@media screen and (max-width: 1440px) {
+  body {
+    font-size: 1.6rem;
+  }
+  header {
+    .hero {
+      font-size: 1.6rem;
+      & h2 {
+        font-size: 2.8rem;
+      }
+      & h1 {
+        font-size: 5.8rem;
+      }
+      & p {
+        font-size: 1.6rem;
+      }
+    }
+    .btn-area {
+      font-size: 1.6rem;
+    }
+    .happy-cust {
+      & img {
+        width: 40px;
+      }
+      & h4 {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  main {
+    .f-hero {
+      & h2 {
+        font-size: 4.2rem;
+      }
+      & p {
+        font-size: 1.6rem;
+      }
+    }
+
+    .container-single {
+      & h4 {
+        font-size: 2.8rem;
+        font-weight: 600;
+      }
+      & p {
+        font-size: 1.6rem;
+      }
+      .title img {
+        height: 54px;
+        width: 54px;
+        padding: 12px;
+      }
+    }
+
+    .arts {
+      & h4,
+      .text {
+        font-size: 1.6rem;
+      }
+      & h3 {
+        font-size: 2.8rem;
+      }
+      .person-des {
+        & h5,
+        p {
+          font-size: 1.6rem;
+        }
+      }
+      .blog-img {
+        min-height: 336px auto;
+      }
+    }
+  }
+
+  .calo {
+    .calc {
+      & label {
+        font-size: 1.6rem;
+      }
+      .inp {
+        height: 50px;
+      }
+    }
+    .gender {
+      font-size: 1.6rem;
+    }
+
+    .table {
+      font-size: 1.6rem;
+    }
+  }
+
+  .plans article {
+    & h4 {
+      font-size: 2.8rem;
+    }
+    & p {
+      font-size: 1.6rem;
+    }
+    & span {
+      font-size: 1.6rem;
+    }
+    & button {
+      font-size: 1.6rem;
+    }
+  }
+
+  footer a,
+  footer p {
+    font-size: 1.6rem;
+  }
+}
+
+/* * Handy */
+@media screen and (max-width: 700px) {
+  .inner {
+    .outa {
+      display: none;
+    }
+  }
+
+  .arts {
+    display: flex;
+    flex-direction: column;
+
+    & article {
+      width: 90%;
+
+      .blog-img {
+        height: 200px;
+
+        article.art1 {
+          grid-column: 1/1;
+        }
+      }
+    }
+
+    main {
+      .f-hero {
+        & h2 {
+          font-size: 4.2rem;
+        }
+        & p {
+          font-size: 1.6rem;
+        }
+      }
+
+      .container-single {
+        & h4 {
+          font-size: 2.8rem;
+          font-weight: 600;
+        }
+        & p {
+          font-size: 1.6rem;
+        }
+        .title img {
+          height: 54px;
+          width: 54px;
+          padding: 12px;
+        }
+      }
+
+      .arts {
+        & h4,
+        .text {
+          font-size: 1.6rem;
+        }
+        & h3 {
+          font-size: 2.8rem;
+        }
+        .person-des {
+          & h5,
+          p {
+            font-size: 1.6rem;
+          }
+        }
+        .blog-img {
+          min-height: 336px auto;
+        }
+      }
+    }
+
+    .calo {
+      .calc {
+        & label {
+          font-size: 1.6rem;
+        }
+        .inp {
+          height: 50px;
+        }
+      }
+      .gender {
+        font-size: 1.6rem;
+      }
+
+      .table {
+        font-size: 1.6rem;
+      }
+    }
+
+    .plans article {
+      & h4 {
+        font-size: 2.8rem;
+      }
+      & p {
+        font-size: 1.6rem;
+      }
+      & span {
+        font-size: 1.6rem;
+      }
+      & button {
+        font-size: 1.6rem;
+      }
+    }
+
+    footer a,
+    footer p {
+      font-size: 1.6rem;
+    }
+  }
+  .menu {
+    display: none;
+  }
+
+  .burg-menu {
+    display: block;
+  }
+
+  .btn-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero img,
+  .hero .content {
+    width: 100%;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .container-wrp-inner {
+    flex-direction: column;
+  }
+  .content img {
+    width: 80px;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+
+    & div {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .hero img,
+    .hero .content {
+      width: 100%;
+    }
+    .hero h1 {
+      font-size: 5.8rem;
+      margin-bottom: 20px;
+      width: 0px;
+    }
+
+    .dame {
+      border-radius: 0px 0px 30px 30px;
+    }
+
+    & h2 {
+      margin-top: 50px;
+      font-size: 1.8rem;
+    }
+    & h1 {
+      font-size: 4.2rem;
+    }
+    & p {
+      font-size: 1.4rem;
+      font-weight: 400;
+    }
+  }
+  .btn-area {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -20px;
+  }
+
+  .happy-cust {
+    display: none;
+  }
+  .happy-cust1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+
+    & img {
+      width: 60px;
+    }
+    & h4 {
+      font-size: 1.6rem;
+    }
+  }
+
+  header {
+    .content {
+      padding: 0 3vw;
+    }
+  }
+
+  .f-hero {
+    & h2 {
+      font-size: 2.4rem;
+    }
+    & p {
+      font-size: 1.4rem;
+    }
+  }
+  .features {
+    margin-bottom: 100px;
+  }
+
+  .calo {
+    .calc {
+      display: flex;
+      flex-direction: column;
+      gap: 80px 60px;
+      font-size: 1.8rem;
+      margin-bottom: 480px;
+    }
+  }
+
+  .pric {
+    margin-bottom: 720px;
+  }
+  .my {
+    position: relative;
+    top: 700px;
+  }
+
+  .op {
+    display: none;
+  }
+  .plans {
+    display: flex;
+    flex-direction: column;
+
+    & article {
+      width: 100%;
+      padding: 50px;
+      line-height: 150%;
+      border-radius: 12px;
+      border: 1px solid var(--Green-85, #e5f5bd);
+      background: var(--Green-95, #f6fbe9);
+    }
+  }
+}
